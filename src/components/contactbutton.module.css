@@ -1,0 +1,6 @@
+.ContactButton {
+  border: none;
+  padding: var(--X-Y-padding);
+  background: var(--primary-color);
+  color: #fff;
+}
