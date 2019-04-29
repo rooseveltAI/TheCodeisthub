@@ -35,19 +35,31 @@ const Sidebar = () => {
           </li>
           <span style={{ marginTop: "4vh" }}>
             <li>
-              <img title="Twitter" src={twitter} width="30%" alt="logo" />
+              <a href="https://twitter.com/TheCodeist" target="_blank">
+                {" "}
+                <img title="Twitter" src={twitter} width="30%" alt="logo" />
+              </a>
             </li>
             <li>
-              <img title="LinkedIn" src={linkedin} width="30%" alt="logo" />
+              <a href="https://linkedin.com/roosevelt-innocent" target="_blank">
+                {" "}
+                <img title="LinkedIn" src={linkedin} width="30%" alt="logo" />
+              </a>{" "}
             </li>
             <li>
-              <img title="Github" src={github} width="30%" alt="logo" />
+              <a href="https://github.com/TheCodeistHub" target="_blank">
+                <img title="Github" src={github} width="30%" alt="logo" />
+              </a>
             </li>
             <li>
-              <img title="Instagram" src={instagram} width="30%" alt="logo" />
+              <a href="https://instagram.com/the-codeist" target="_blank">
+                <img title="Instagram" src={instagram} width="30%" alt="logo" />
+              </a>
             </li>
             <li>
-              <img title="Codepen" src={codepen} width="30%" alt="logo" />
+              <a href="https://codepen.com/Thecodeist" target="_blank">
+                <img title="Codepen" src={codepen} width="30%" alt="logo" />
+              </a>
             </li>
           </span>
         </ul>

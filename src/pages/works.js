@@ -5,8 +5,17 @@ import Layout from "../components/layout"
 const Works = () => {
   return (
     <Layout>
+      <h3
+        style={{
+          marginLeft: "5vw",
+          color: "#fff",
+          fontFamily: "Montserrat ExtraBold",
+          fontSize: "3em",
+        }}
+      >
+        My Works
+      </h3>
       <div className="container">
-        <h2 style={{ width: "40vw", textAlign: "center" }}>My Works</h2>
         <section className="works__card-container">
           <div className="works--card" />
           <div className="works--card" />
