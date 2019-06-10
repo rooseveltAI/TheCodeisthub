@@ -10,8 +10,8 @@ import PropTypes from "prop-types"
 // import { StaticQuery, graphql } from "gatsby"
 // import "./layout.css"
 
-import Navbar from "../components/navbar/Navbar"
-// import Footer from "../components/footer/Footer"
+import Navbar from "./navbar/Navbar"
+import Footer from "./footer/Footer"
 
 import "../scss/layout.scss"
 
@@ -24,7 +24,9 @@ const Layout = ({ children }) => {
         <Navbar />
         <main>{children}</main>
       </div>
-      <footer style={{ background: "#ccc" }}>Links</footer>
+      <footer className="footer__container">
+        <Footer />
+      </footer>
     </div>
   )
 }
