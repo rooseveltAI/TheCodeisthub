@@ -1,41 +1,35 @@
 import React from "react"
+// import { Link } from "gatsby"
 
-import ContactButton from "../components/contactBtn"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-const Services = () => {
-  return (
-    <div id="services" className="services__container">
-      <h2 className="services--h2">My Services</h2>
-      <section className="services__card-container container">
-        <div className="services--card">
-          <h3>Services I offer</h3>
-          <p>
-            I help SaaS businesses create more intuitive user interfaces for
-            their web and mobile applications. I'm passionate about programming,
-            just as much as I am about creating products that matter.I help SaaS
-            businesses create more intuitive user interfaces for their web and
-            mobile applications. I'm passionate about programming, just as much
-            as I am about creating products that matter.I help SaaS businesses
-            create more intuitive user
-          </p>
-          <ContactButton>Contact Me</ContactButton>
-        </div>
+const ServicesPage = () => (
+  <Layout>
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h2>My Services</h2>
+    <section>
+      <h4>Create intuitive layouts</h4>
+      <p>
+        lorem ipsuim dolor sit ammet, consecetur lorem ipsuim dolor sit ammet,
+        consecetur lorem ipsuim dolor sit ammet, consecetur
+      </p>
+    </section>
+    <section>
+      <h4>Create intuitive layouts</h4>
+      <p>
+        lorem ipsuim dolor sit ammet, consecetur lorem ipsuim dolor sit ammet,
+        consecetur lorem ipsuim dolor sit ammet, consecetur
+      </p>
+    </section>
+    <section>
+      <h4>Create intuitive layouts</h4>
+      <p>
+        lorem ipsuim dolor sit ammet, consecetur lorem ipsuim dolor sit ammet,
+        consecetur lorem ipsuim dolor sit ammet, consecetur
+      </p>
+    </section>
+  </Layout>
+)
 
-        <div className="services--card">
-          <h3>Services I Don't offer</h3>
-          <p>
-            I help SaaS businesses create more intuitive user interfaces for
-            their web and mobile applications. I'm passionate about programming,
-            just as much as I am about creating products that matter.I help SaaS
-            businesses create more intuitive user interfaces for their web and
-            mobile applications. I'm passionate about programming, just as much
-            as I am about creating products that matter.I help SaaS businesses
-            create more intuitive user
-          </p>
-        </div>
-      </section>
-    </div>
-  )
-}
-
-export default Services
+export default ServicesPage

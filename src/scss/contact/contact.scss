@@ -1,0 +1,119 @@
+.contact--bg {
+  background: url("../images/bcg/footer_bg.svg") var(--bg-no-repeat)
+    var(--bg-center-X-Y) / var(--bg-cover);
+  height: 140vh;
+  margin-bottom: 20vh;
+
+  // height: 980.33px;
+  width: 100vw;
+
+  .contact__container {
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-template-columns: var(--g-temp-col-2);
+    margin-top: 35vh;
+  }
+
+  .contact--text {
+    color: #fff;
+
+    .contact--h2 {
+      width: 539px;
+      font-weight: 800;
+      font-size: 5rem;
+      line-height: 88px;
+    }
+
+    .contact--p {
+      width: 490px;
+      font-size: 27px;
+      line-height: 138.1%;
+      margin-top: 2rem;
+      font-weight: 300;
+    }
+  }
+  .form__bg {
+    background: url("../images/bcg/contact_circle.svg") var(--bg-no-repeat)
+      center center / cover;
+    height: 100vh;
+    width: 752px;
+  }
+  .form-container {
+    width: 560px;
+  }
+  .contact_form {
+    background: #fff;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    padding: 2em;
+
+    .contact_form label {
+      /* display: block; */
+      font-weight: bold;
+    }
+
+    & input {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      width: 100%;
+      outline: none;
+      margin-bottom: 2rem;
+      opacity: 0.4;
+      transition: 0.5s;
+      padding: 1em;
+    }
+
+    input:focus {
+      box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+      opacity: 1;
+    }
+
+    & textarea {
+      outline: none;
+      width: 100%;
+      height: 90px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 2em;
+      resize: none;
+      opacity: 0.4;
+      transition: 0.5s;
+      letter-spacing: 1px;
+      line-height: 2;
+      font-size: 16px;
+    }
+    textarea:focus {
+      box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+      opacity: 1;
+      height: 230px;
+    }
+
+    .contact--h4--label {
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 138.1%;
+      /* identical to box height, or 25px */
+      color: #6c63ff;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .copy-email {
+    background: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+
+    .copy--btn {
+      background: #6c63ff;
+      border-radius: 5px;
+      padding: 0.4rem 0.5rem;
+      color: #fff;
+      border: none;
+    }
+  }
+}

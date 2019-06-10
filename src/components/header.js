@@ -4,11 +4,11 @@ import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-    {/* <div>
+    <div>
       <h1>
         <Link to="/">{siteTitle}</Link>
       </h1>
-    </div> */}
+    </div>
   </header>
 )
 

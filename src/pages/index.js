@@ -3,17 +3,31 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import About from "./about"
-import Services from "./services"
-import Works from "./works"
-import Contact from "./contact"
+import { HomeHeader, Services, Works, Contact } from "../utils"
+import AboutIntro from "../components/About/AboutIntro"
+import ServicesSection from "../components/Service/ServicesSection"
+import WorksSection from "../components/Works/worksSection"
+import ContactContainer from "../components/Contact/contactContainer"
+
+// import About from "../components/HomePageComponents/About"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <About />
-    <Services />
-    <Contact />
+    <HomeHeader>
+      <AboutIntro />
+    </HomeHeader>
+    <Services>
+      <ServicesSection />
+    </Services>
+
+    <Works>
+      <WorksSection />
+    </Works>
+
+    <Contact>
+      <ContactContainer />
+    </Contact>
   </Layout>
 )
 

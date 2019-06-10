@@ -1,31 +1,32 @@
 import React from "react"
+// import { Link } from "gatsby"
 
-import img from "../images/Roosevelt2.jpg"
-import ContactButton from "../components/contactBtn"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-const About = () => {
-  return (
-    <div id="about" style={{ marginBottom: "20vh" }}>
-      <section className="about--profile">
-        <img className="avatar avatar-150" src={img} alt="Profile" />
-        <span style={{ marginLeft: "2vw", color: "#fff" }}>
-          <h1>Roosevelt Innocent</h1>
-          <h3>Front end Developer</h3>
-        </span>
-      </section>
-      <div className="about__section-2">
-        <h2 className="about--h2">About Me</h2>
-        <div className="about__card">
-          <p>
-            I help SaaS businesses create more intuitive user interfaces for
-            their web and mobile applications. I'm passionate about programming,
-            just as much as I am about creating products that matter.
-          </p>
-          <ContactButton>Contact Me</ContactButton>
-        </div>
-      </div>
-    </div>
-  )
-}
+const AboutPage = () => (
+  <Layout>
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <section>
+      <h2>Hello,</h2>
+      <p>My name is Roosevelt (TheCodeist)</p>
+      <p>
+        This is a shitty intro of Let me help you build the next saas product
+        website.
+      </p>
+    </section>
+    <section>
+      <h2>I’M A FRONT END DEVELOPER</h2>
+      <h4>
+        “ I help SaaS businesses build more intuitive user interfaces for their
+        web pages and applications. I'm passionate about programming, just as
+        much as I am about creating products that matter. ”
+      </h4>
+    </section>
+    <section>
+      <h4>See Pictures</h4>
+    </section>
+  </Layout>
+)
 
-export default About
+export default AboutPage

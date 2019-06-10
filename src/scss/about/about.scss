@@ -1,0 +1,90 @@
+@import "../reset";
+
+.about--container {
+  margin-bottom: 15vh;
+
+  .about--text__container {
+    margin-top: 25vh;
+
+    @include for-phone-only {
+      position: relative;
+      z-index: 4;
+      color: #fff;
+      margin-top: 10vh;
+      display: none;
+    }
+
+    .hello--h3 {
+      font-weight: 800;
+      font-size: 5rem;
+    }
+
+    .about--p--bold {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .about--header-p {
+      width: 387px;
+      font-weight: 300;
+      font-size: 24px;
+    }
+  }
+
+  .about--vector--bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    @include for-phone-only {
+      width: 100%;
+    }
+  }
+
+  .about--illust {
+    position: absolute;
+    right: 0;
+    top: 25vh;
+    z-index: 2;
+
+    @include for-phone-only {
+      width: 100%;
+      top: 15vh;
+    }
+  }
+
+  .about__mac--container {
+    background: url("../images/about_mac.png") var(--bg-no-repeat)
+      var(--bg-center-X-Y) / var(--bg-contain);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    z-index: 2;
+
+    .about__mac--content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 5em;
+      // margin-top: 10vh;
+
+      .mac--h2 {
+        font-weight: 800;
+        font-size: 2.5vw;
+        margin-top: 15vh;
+      }
+      .mac--p {
+        font-weight: 600;
+        font-size: 2vw;
+
+        .quote {
+          font-weight: 800;
+          font-size: 48px;
+        }
+      }
+    }
+  }
+}

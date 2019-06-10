@@ -1,0 +1,40 @@
+.btn {
+  border: none;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.purple {
+  background: #8709fc;
+  box-shadow: 0px 10px 30px rgba(138, 95, 178, 0.81);
+  border-radius: 5px;
+  outline-color: #fc5c65;
+}
+.crimson {
+  background: #fc5c65;
+  box-shadow: 0px 10px 30px rgba(252, 92, 101, 0.59);
+  border-radius: 5px;
+  outline-color: #8709fc;
+}
+
+.contact {
+  border: none;
+  width: 100%;
+  padding: 1em;
+  color: #fff;
+  background: #fc5c65;
+  box-shadow: 0px 4px 40px rgba(252, 92, 101, 0.4);
+  border-radius: 50px;
+  font-weight: 800;
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+  line-height: 138.1%;
+  cursor: pointer;
+  outline-color: #8709fc;
+}

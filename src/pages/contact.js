@@ -1,15 +1,15 @@
 import React from "react"
+// import { Link } from "gatsby"
 
-const Contact = () => {
-  return (
-    <div id="contact" className="contact">
-      <h2>Contact Me</h2>
-      <section className="contact--card">
-        <h3>Contact form</h3>
-        <i style={{ textAlign: "center" }}>howdy.roosevelt@gmail.com</i>
-      </section>
-    </div>
-  )
-}
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import ContactContainer from "../components/Contact/contactContainer"
 
-export default Contact
+const ContactPage = () => (
+  <Layout>
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <ContactContainer />
+  </Layout>
+)
+
+export default ContactPage

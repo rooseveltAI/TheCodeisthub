@@ -17,7 +17,7 @@ export const query = graphql`
 const Blog = props => {
   return (
     <Layout>
-      <div style={{ color: "#fff", marginLeft: "5vw" }}>
+      <div style={{ color: "#111", marginLeft: "5vw" }}>
         <h3
           style={{
             fontFamily: "Montserrat ExtraBold",

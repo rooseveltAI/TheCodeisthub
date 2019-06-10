@@ -1,31 +1,35 @@
 import React from "react"
-import ContactButton from "../components/contactBtn"
+// import { Link } from "gatsby"
+
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-const Works = () => {
-  return (
-    <Layout>
-      <h3
-        style={{
-          marginLeft: "5vw",
-          color: "#fff",
-          fontFamily: "Montserrat ExtraBold",
-          fontSize: "3em",
-        }}
-      >
-        My Works
-      </h3>
-      <div className="container">
-        <section className="works__card-container">
-          <div className="works--card" />
-          <div className="works--card" />
-          <div className="works--card" />
-          <div className="works--card" />
-        </section>
-        <ContactButton>Veiw more</ContactButton>
-      </div>
-    </Layout>
-  )
-}
+const WorksPage = () => (
+  <Layout>
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <p>See My Works</p>
+    <section>
+      <h4>Create intuitive layouts</h4>
+      <p>
+        lorem ipsuim dolor sit ammet, consecetur lorem ipsuim dolor sit ammet,
+        consecetur lorem ipsuim dolor sit ammet, consecetur
+      </p>
+    </section>
+    <section>
+      <h4>Create intuitive layouts</h4>
+      <p>
+        lorem ipsuim dolor sit ammet, consecetur lorem ipsuim dolor sit ammet,
+        consecetur lorem ipsuim dolor sit ammet, consecetur
+      </p>
+    </section>
+    <section>
+      <h4>Create intuitive layouts</h4>
+      <p>
+        lorem ipsuim dolor sit ammet, consecetur lorem ipsuim dolor sit ammet,
+        consecetur lorem ipsuim dolor sit ammet, consecetur
+      </p>
+    </section>
+  </Layout>
+)
 
-export default Works
+export default WorksPage

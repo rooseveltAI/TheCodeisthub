@@ -27,8 +27,9 @@ const BlogPage = () => {
       <h3
         style={{
           marginBottom: "25vh",
+          marginTop: "20vh",
           marginLeft: "5vw",
-          color: "#fff",
+          color: "#111",
           fontFamily: "Montserrat ExtraBold",
           fontSize: "3em",
         }}
