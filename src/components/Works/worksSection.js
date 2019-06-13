@@ -1,6 +1,5 @@
 import React from "react"
 import img1 from "../../images/works/kilo.png"
-// import img2 from "../../images/works/landing_page.png"
 
 export default function WorksSection() {
   return (
@@ -23,15 +22,13 @@ export default function WorksSection() {
               </p>
               <h4>View it On:</h4>
             </div>
-            <div className="works__card--icon">
+            {/* <div className="works__card--icon">
               <a
                 href="https://twitter.com/TheLennyJohnson"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                {/* <img src={twitter} width="60px" alt="twitter" /> */}
-              </a>
-            </div>
+              />
+            </div> */}
           </div>
         </div>
 
@@ -51,15 +48,13 @@ export default function WorksSection() {
               </p>
               <h4>View it On:</h4>
             </div>
-            <div className="works__card--icon">
+            {/* <div className="works__card--icon">
               <a
                 href="https://twitter.com/TheLennyJohnson"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                {/* <img src={twitter} width="60px" alt="twitter" /> */}
-              </a>
-            </div>
+              />
+            </div> */}
           </div>
         </div>
 
@@ -79,15 +74,13 @@ export default function WorksSection() {
               </p>
               <h4>View it On:</h4>
             </div>
-            <div className="works__card--icon">
+            {/* <div className="works__card--icon">
               <a
                 href="https://twitter.com/TheLennyJohnson"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                {/* <img src={twitter} width="60px" alt="twitter" /> */}
-              </a>
-            </div>
+              />
+            </div> */}
           </div>
         </div>
         <div className="works--card">
@@ -106,15 +99,13 @@ export default function WorksSection() {
               </p>
               <h4>View it On:</h4>
             </div>
-            <div className="works__card--icon">
+            {/* <div className="works__card--icon">
               <a
                 href="https://twitter.com/TheLennyJohnson"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                {/* <img src={twitter} width="60px" alt="twitter" /> */}
-              </a>
-            </div>
+              />
+            </div> */}
           </div>
         </div>
         <div className="works--card">
@@ -133,15 +124,14 @@ export default function WorksSection() {
               </p>
               <h4>View it On:</h4>
             </div>
-            <div className="works__card--icon">
+            {/* <div className="works__card--icon">
               <a
                 href="https://twitter.com/TheLennyJohnson"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {/* <img src={twitter} width="60px" alt="twitter" /> */}
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="works--card">
@@ -160,15 +150,13 @@ export default function WorksSection() {
               </p>
               <h4>View it On:</h4>
             </div>
-            <div className="works__card--icon">
+            {/* <div className="works__card--icon">
               <a
                 href="https://twitter.com/TheLennyJohnson"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                {/* <img src={twitter} width="60px" alt="twitter" /> */}
-              </a>
-            </div>
+              />
+            </div> */}
           </div>
         </div>
       </div>
