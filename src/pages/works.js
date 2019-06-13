@@ -4,31 +4,18 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import { Works } from "../utils"
+
+import WorksSection from "../components/Works/worksSection"
+
 const WorksPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <p>See My Works</p>
-    <section>
-      <h4>Create intuitive layouts</h4>
-      <p>
-        lorem ipsuim dolor sit ammet, consecetur lorem ipsuim dolor sit ammet,
-        consecetur lorem ipsuim dolor sit ammet, consecetur
-      </p>
-    </section>
-    <section>
-      <h4>Create intuitive layouts</h4>
-      <p>
-        lorem ipsuim dolor sit ammet, consecetur lorem ipsuim dolor sit ammet,
-        consecetur lorem ipsuim dolor sit ammet, consecetur
-      </p>
-    </section>
-    <section>
-      <h4>Create intuitive layouts</h4>
-      <p>
-        lorem ipsuim dolor sit ammet, consecetur lorem ipsuim dolor sit ammet,
-        consecetur lorem ipsuim dolor sit ammet, consecetur
-      </p>
-    </section>
+    <div className="page--margin">
+      <Works>
+        <WorksSection />
+      </Works>
+    </div>
   </Layout>
 )
 

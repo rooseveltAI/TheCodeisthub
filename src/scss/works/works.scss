@@ -2,7 +2,7 @@
 
 .works {
   background: rgba(212, 223, 236, 0.2);
-  height: 100vh;
+  height: auto;
   margin-bottom: 25vh;
 
   .works--title--h2 {
@@ -15,6 +15,7 @@
     margin-bottom: 15vh;
     display: grid;
     grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
     height: auto;
     grid-template-columns: var(--g-temp-col-3);
 
@@ -27,7 +28,7 @@
     .works--card {
       width: 437px;
       height: auto;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 16px 48px #e3e7eb;
       border-radius: 10px;
       background: #fff;
       transition: ease-in-out 0.5s;
