@@ -21,10 +21,12 @@ const Blog = props => {
         <h3>{props.data.markdownRemark.frontmatter.title}</h3>
         <i>Published On: {props.data.markdownRemark.frontmatter.date}</i>
       </div>
-      <div
-        className="container"
-        dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
-      />
+      <div className="innerHTML--container">
+        <div
+          className="container"
+          dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
+        />
+      </div>
     </Layout>
   )
 }

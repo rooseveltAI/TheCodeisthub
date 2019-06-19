@@ -9,6 +9,11 @@
     font-weight: 800;
     font-size: 3vw;
     color: #3f3d56;
+
+    @include for-phone-only {
+      font-size: 10vw;
+      text-align: center;
+    }
   }
 
   .works__container {
@@ -25,11 +30,17 @@
       grid-column-gap: 0;
     }
 
+    @include for-tablet-portait-only {
+      grid-template-columns: var(--g-temp-col-2);
+      grid-row-gap: 2rem;
+      grid-column-gap: 2rem;
+    }
+
     .works--card {
       width: 437px;
       height: auto;
       box-shadow: 0 16px 48px #e3e7eb;
-      border-radius: 10px;
+      border-radius: 20px;
       background: #fff;
       transition: ease-in-out 0.5s;
       user-select: none;
@@ -38,6 +49,14 @@
 
       &:hover {
         box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.1);
+      }
+
+      @include for-phone-only {
+        width: 100%;
+      }
+
+      @include for-tablet-portait-only {
+        width: 100%;
       }
     }
 

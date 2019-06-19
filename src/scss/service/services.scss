@@ -14,19 +14,6 @@
 .services__container {
   margin-bottom: 15vh;
 
-  .services--title--h2 {
-    font-weight: 800;
-    font-size: 5vw;
-    color: #3f3d56;
-    text-align: center;
-    position: relative;
-    bottom: 5vh;
-
-    @include for-phone-only {
-      font-size: 10vw;
-    }
-  }
-
   .services--grid {
     display: grid;
     grid-column-gap: 10em;
@@ -38,12 +25,18 @@
       grid-column-gap: 0;
       grid-template-columns: var(--g-temp-col-1);
     }
+
+    @include for-tablet-portait-only {
+      grid-row-gap: 2rem;
+      grid-column-gap: 2rem;
+      grid-template-columns: var(--g-temp-col-2);
+    }
   }
 
   .services--card {
     background: #ffffff;
     box-shadow: 0 16px 48px #e3e7eb;
-    // border-radius: 40px 40px 0px 0px;
+    border-radius: 20px;
     width: 495px;
     height: 608px;
     padding: 32px 24px;
@@ -54,14 +47,28 @@
       height: auto;
     }
 
+    @include for-tablet-portait-only {
+      width: 100%;
+      height: auto;
+    }
+
     .services--content--h2 {
       font-weight: bold;
       font-size: 28px;
+
+      @include for-phone-only {
+        font-size: 18px;
+      }
     }
 
     .services--content--p {
       font-weight: 300;
       font-size: 24px;
+
+      @include for-phone-only {
+        font-weight: 500;
+        font-size: 16px;
+      }
     }
   }
 
@@ -73,6 +80,13 @@
 
     @include for-phone-only {
       margin-top: 2rem;
+    }
+
+    @include for-tablet-portait-only {
+      margin-top: 2rem;
+      width: 495px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }

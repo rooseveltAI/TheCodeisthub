@@ -21,6 +21,11 @@
   box-shadow: 0px 10px 30px rgba(252, 92, 101, 0.59);
   border-radius: 5px;
   outline-color: #8709fc;
+
+  @include for-phone-only {
+    display: flex;
+    margin: auto;
+  }
 }
 
 .contact {
@@ -37,4 +42,8 @@
   line-height: 138.1%;
   cursor: pointer;
   outline-color: #8709fc;
+
+  @include for-phone-only {
+    font-size: 4vw;
+  }
 }

@@ -6,26 +6,21 @@ class NavbarLinks extends Component {
     links: [
       {
         id: 0,
+        path: "/",
+        name: "Home",
+      },
+      {
+        id: 1,
         path: "/about/",
         name: "About",
       },
       {
-        id: 1,
+        id: 2,
         path: "/works/",
         name: "Works",
       },
       {
-        id: 2,
-        path: "/services/",
-        name: "Services",
-      },
-      {
         id: 3,
-        path: "/contact/",
-        name: "Contact",
-      },
-      {
-        id: 4,
         path: "/blog/",
         name: "Blog",
       },

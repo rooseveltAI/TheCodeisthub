@@ -6,7 +6,9 @@ export default function ServicesSection() {
   return (
     <div className="container">
       <div className="services__container">
-        <h2 className="services--title--h2">My Services</h2>
+        <h2 className="title--h2" style={{ textAlign: "center" }}>
+          My Services
+        </h2>
         <span>
           <img src={vector1} alt="vector" />
         </span>

@@ -26,7 +26,7 @@ const BlogPage = () => {
     <Layout>
       {/* <div className="blog--bg" /> */}
       <div className="page--margin container">
-        <h3>Blog</h3>
+        <h2 className="title--h2">Blog</h2>
         <div className="blog--card__container">
           {data.allMarkdownRemark.edges.map(edge => {
             return (
