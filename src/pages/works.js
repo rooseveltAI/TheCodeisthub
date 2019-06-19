@@ -4,7 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import { Works } from "../utils"
+import { Works } from "../../utils"
 
 import WorksSection from "../components/Works/worksSection"
 
