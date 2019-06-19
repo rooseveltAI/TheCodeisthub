@@ -1,5 +1,5 @@
 import React from "react"
-import kilo from "../../images/works/kilo.png"
+import kilo from "../../images/projects/kilo.png"
 
 export default function WorksSection() {
   return (
