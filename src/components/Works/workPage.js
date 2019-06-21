@@ -1,5 +1,5 @@
 import React from "react"
-import kilo from "../../images/kilo.png"
+// import kilo from "../../images/kilo.png"
 
 export default function WorkSection() {
   return (
@@ -8,12 +8,12 @@ export default function WorkSection() {
       <div className="works__container">
         <div className="works--card">
           <div class="works--contents__container">
-            <img
+            {/* <img
               className="works--img"
               src={kilo}
               width="437px"
               alt="projects"
-            />
+            /> */}
 
             <div className="works--contents">
               <h1>Kilo App</h1>
@@ -34,12 +34,12 @@ export default function WorkSection() {
 
         <div className="works--card">
           <div class="works--contents__container">
-            <img
+            {/* <img
               className="works--img"
               src={kilo}
               width="437px"
               alt="projects"
-            />
+            /> */}
 
             <div className="works--contents">
               <h1>Kilo App</h1>
@@ -60,12 +60,12 @@ export default function WorkSection() {
 
         <div className="works--card">
           <div class="works--contents__container">
-            <img
+            {/* <img
               className="works--img"
               src={kilo}
               width="437px"
               alt="projects"
-            />
+            /> */}
 
             <div className="works--contents">
               <h1>Kilo App</h1>
