@@ -101,11 +101,10 @@ export default class Contact extends React.Component {
             <h4 title="Important">
               GDPR Agreement <i style={{ color: "red" }}>*</i>
             </h4>
-            <label style={{ fontWeight: "400" }} className="r-sidebar--label">
-              I consent to having TheCodeistHub store my submitted information
-              and contacting me with it.
-              <input type="checkbox" required />
-              <span class="checkmark" />
+            <label style={{ fontWeight: "400" }}>
+              <input type="checkbox" required />I consent to having
+              TheCodeistHub store my submitted information and contacting me
+              with it.
             </label>
 
             <p

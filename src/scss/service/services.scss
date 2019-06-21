@@ -41,6 +41,7 @@
     height: 608px;
     padding: 32px 24px;
     transition: ease-in-out 0.5s;
+    animation: drop 5s ease;
 
     @include for-phone-only {
       width: 100%;

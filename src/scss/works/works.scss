@@ -46,6 +46,7 @@
       user-select: none;
       -webkit-user-drag: none;
       cursor: grab;
+      animation: drop 2s ease;
 
       &:hover {
         box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.1);

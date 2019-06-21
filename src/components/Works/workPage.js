@@ -1,7 +1,7 @@
 import React from "react"
-import kilo from "../../images/projects/kilo.png"
+import kilo from "../../images/kilo.png"
 
-export default function WorksSection() {
+export default function WorkSection() {
   return (
     <div className="container">
       <h2 className="works--title--h2">See my works</h2>

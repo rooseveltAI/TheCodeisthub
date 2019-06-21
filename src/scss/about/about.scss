@@ -5,6 +5,7 @@
 
   .about--text__container {
     margin-top: 25vh;
+    animation: drop 1.5s ease;
 
     @include for-phone-only {
       position: relative;
@@ -41,6 +42,7 @@
     top: 0;
     -webkit-user-drag: none;
     user-drag: none;
+    animation: dropup 1.5s ease;
 
     @include for-phone-only {
       width: 100%;
@@ -52,6 +54,7 @@
     right: 0;
     top: 25vh;
     z-index: 2;
+    animation: dropup 1.5s ease;
 
     @include for-phone-only {
       width: 100%;

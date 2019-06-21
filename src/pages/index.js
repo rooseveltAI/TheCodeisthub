@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import { HomeHeader, Services, Works, Contact } from "../utils"
 import AboutIntro from "../components/About/AboutIntro"
 import ServicesSection from "../components/Service/ServicesSection"
-import WorksSection from "../components/Works/worksSection"
+import WorkSection from "../components/Works/workPage"
 import ContactContainer from "../components/Contact/contactContainer"
 
 // import About from "../components/HomePageComponents/About"
@@ -22,7 +22,7 @@ const IndexPage = () => (
     </Services>
 
     <Works>
-      <WorksSection />
+      <WorkSection />
     </Works>
 
     <Contact>
