@@ -20,9 +20,9 @@ const IndexPage = () => (
     <div className="come--later__container">
       <h1>Hello There!</h1>
       <p>
-        My site is currently under maintanance. Please check back on January!
+        My site is currently under maintenance. Please check back by January!
       </p>
-      <p>For the mean time you can connect with me on</p>
+      <p>For the meantime, you can connect with me on</p>
       <a
         href="https://twitter.com/CodeUXI"
         target="_blank"
