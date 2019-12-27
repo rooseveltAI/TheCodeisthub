@@ -11,6 +11,8 @@ import SEO from "../components/seo"
 
 // import About from "../components/HomePageComponents/About"
 
+import "../scss/layout.scss"
+
 const IndexPage = () => (
   <div className="container main-body">
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />

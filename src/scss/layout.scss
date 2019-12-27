@@ -83,6 +83,18 @@ body {
   font-size: calc(14px + 0.25vw);
 }
 
+.come--later__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8em;
+
+  & a {
+    color: #fc5c65;
+  }
+}
+
 ul {
   list-style: none;
   padding: 0;
