@@ -12,12 +12,14 @@ import SEO from "../components/seo"
 // import About from "../components/HomePageComponents/About"
 
 const IndexPage = () => (
-  <div className="container">
+  <div className="container main-body">
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
     <div className="come--later__container">
       <h1>Hello There!</h1>
-      <p>My site is currently under maintanance. Please check back later!</p>
+      <p>
+        My site is currently under maintanance. Please check back on January!
+      </p>
       <p>For the mean time you can connect with me on</p>
       <a
         href="https://twitter.com/CodeUXI"
