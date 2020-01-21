@@ -31,7 +31,7 @@ export default class Works extends Component {
                 alt="Coin"
               />
               <div className="work--card__content">
-                <h3>COIN</h3>
+                <h3>Gosquare</h3>
                 <p>
                   is a fin-tech mobile app for the Nigeria local market which
                   involves money lending with ease
