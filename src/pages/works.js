@@ -4,17 +4,18 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import WorkSection from "../components/Works/workPage"
-import { Works } from "../utils"
+import LandingHeader from "src/components/Header/LandingHeader"
+import WorksPageCard from "src/components/Works/WorksPageCard"
+import Cta from "../components/Cta"
 
 const WorksPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <div className="page--margin">
-      <Works>
-        <WorkSection />
-      </Works>
+    <div>
+      <LandingHeader />
+      <WorksPageCard />
     </div>
+    <Cta />
   </Layout>
 )
 

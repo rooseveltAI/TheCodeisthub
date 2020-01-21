@@ -17,15 +17,17 @@ export const query = graphql`
 const Blog = props => {
   return (
     <Layout>
-      <div className="page--margin container">
-        <h3>{props.data.markdownRemark.frontmatter.title}</h3>
-        <i>Published On: {props.data.markdownRemark.frontmatter.date}</i>
-      </div>
-      <div className="innerHTML--container">
-        <div
-          className="container"
-          dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
-        />
+      <div className="blog--text__container">
+        <div className="text--container">
+          <h2>{props.data.markdownRemark.frontmatter.title}</h2>
+          <i>Published On: {props.data.markdownRemark.frontmatter.date}</i>
+        </div>
+        <div className="innerHTML--container">
+          <div
+            className="text--container"
+            dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}
+          />
+        </div>
       </div>
     </Layout>
   )

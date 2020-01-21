@@ -4,17 +4,18 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import AboutIntro from "../components/About/AboutIntro"
-import AboutImages from "../components/About/AboutImages"
-import { Services } from "../utils"
+import LandingHeader from "src/components/Header/LandingHeader"
+import AboutPageText from "src/components/About/AboutPageText"
+import BigTitle from "../components/bigTitle"
 
 const AboutPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <AboutIntro />
-    <Services>
-      <AboutImages />
-    </Services>
+    <div className="about--page__container">
+      <LandingHeader />
+      <AboutPageText />
+    </div>
+    <BigTitle />
   </Layout>
 )
 

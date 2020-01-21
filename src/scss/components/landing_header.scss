@@ -1,0 +1,51 @@
+.header__container {
+  background: linear-gradient(
+      0deg,
+      rgba(241, 242, 246, 0.95),
+      rgba(241, 242, 246, 0.95)
+    ),
+    url("~src/images/ux.png") no-repeat center center / cover;
+  height: 70vh;
+  width: 100%;
+
+  @include for-phone-only {
+    background: linear-gradient(
+        0deg,
+        rgba(241, 242, 246, 0.95),
+        rgba(241, 242, 246, 0.95)
+      ),
+      url("~src/images/ux.png") no-repeat center center / contain;
+  }
+}
+
+.nugget__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: #ffffff;
+  color: #000000;
+  width: 604px;
+  height: 257px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+  padding: 1em 3em 1em 3em;
+  text-align: center;
+
+  position: relative;
+  top: -8em;
+
+  @include for-phone-only {
+    width: 100%;
+  }
+
+  & p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+
+    @include for-phone-only {
+      font-size: 16px;
+      width: 100%;
+    }
+  }
+}

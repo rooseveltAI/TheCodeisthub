@@ -1,29 +1,68 @@
 import React, { Component } from "react"
-import NavbarHeader from "./NavbarHeader"
-import NavbarLinks from "./NavbarLinks"
+import { Link } from "gatsby"
 
-class Navbar extends Component {
-  state = {
-    navbarClicked: false,
-  }
+import Logo from "../../images/logo.svg"
+import waving from "../../images/waving_hand.svg"
 
-  handleNavbar = () => {
-    this.setState(() => {
-      return { navbarClicked: !this.state.navbarClicked }
-    })
-  }
+export default class Navbar extends Component {
   render() {
     return (
-      <header className="nav--header">
-        <div className="container">
-          <nav className="nav">
-            <NavbarHeader handleNavbar={this.handleNavbar} />
-            <NavbarLinks navbarClicked={this.state.navbarClicked} />
-          </nav>
-        </div>
-      </header>
+      <nav className="nav__container">
+        <ul className="nav--lists">
+          <li>
+            <Link to="/">
+              <img src={Logo} alt="Roosevelt" />
+            </Link>
+          </li>
+
+          <div className="menu-wrap">
+            <input type="checkbox" className="toggler" />
+            <div className="hamburger">
+              <div />
+            </div>
+
+            <div className="menu">
+              <div>
+                <div>
+                  <ul className="nav--ul">
+                    <li>
+                      <Link to="/about">About</Link>
+                    </li>
+
+                    <li>
+                      <Link to="/works">Portfolio</Link>
+                    </li>
+
+                    <li>
+                      <a
+                        title="Open in new tab"
+                        href="https://medium.com/@CodeUXI"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Articles
+                      </a>
+                    </li>
+
+                    <li className="nav--email">
+                      <span className="email">
+                        <a
+                          href="mailto:howdy.roosevelt@gmail.com"
+                          target="_top"
+                          rel="noopener noreferrer"
+                        >
+                          howdy.roosevelt@gmail.com
+                        </a>
+                        <img src={waving} alt="waving hand" />
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </nav>
     )
   }
 }
-
-export default Navbar

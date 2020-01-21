@@ -24,25 +24,25 @@ const BlogPage = () => {
 
   return (
     <Layout>
-      {/* <div className="blog--bg" /> */}
-      <div className="page--margin container">
-        <h2 className="title--h2">Blog</h2>
-        <div className="blog--card__container">
-          {data.allMarkdownRemark.edges.map(edge => {
-            return (
-              <div className="blog-card">
-                <Link to={`/blog/${edge.node.fields.slug}`}>
-                  <h2>{edge.node.frontmatter.title}</h2>
-                  <p>{edge.node.frontmatter.date}</p>
-                  <br />
-                  <span>Read - </span>
-                </Link>
-              </div>
-            )
-          })}
+      <div className="container">
+        <div className="blog--page__container">
+          <h2 className="title--h2">My Blog</h2>
+          <div className="blog--card__container">
+            {data.allMarkdownRemark.edges.map(edge => {
+              return (
+                <div className="blog-card">
+                  <Link to={`/blog/${edge.node.fields.slug}`}>
+                    <h2>{edge.node.frontmatter.title}</h2>
+                    <p>{edge.node.frontmatter.date}</p>
+                    <br />
+                    <button>Read &rarr; </button>
+                  </Link>
+                </div>
+              )
+            })}
+          </div>
         </div>
       </div>
-      {/* </div> */}
     </Layout>
   )
 }

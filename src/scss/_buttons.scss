@@ -1,0 +1,28 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  padding: 1em 2em 1em 2em;
+  border-radius: 50px;
+  font-family: Josefin Sans;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: -0.177928px;
+  margin: 4em 0 4em 0;
+}
+
+.btn--pink {
+  background: transparent;
+  border: 2px solid #d61d4e;
+  color: #000000;
+  transition: 0.5s;
+
+  &:hover {
+    background: #d61d4e;
+    color: #ffffff;
+  }
+}
+
+.btn--yellow {
+  background: #f8c615;
+  color: #ffffff;
+}

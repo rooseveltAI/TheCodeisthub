@@ -1,81 +1,36 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-// import Layout from "../components/layout"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import { HomeHeader, Services, Works, Contact } from "../utils"
-// import AboutIntro from "../components/About/AboutIntro"
-// import ServicesSection from "../components/Service/ServicesSection"
-// import WorkSection from "../components/Works/workPage"
-// import ContactContainer from "../components/Contact/contactContainer"
 
-// import About from "../components/HomePageComponents/About"
+import LandingHeader from "../components/Header/LandingHeader"
 
 import "../scss/layout.scss"
+import BigTitle from "../components/bigTitle"
+import Works from "src/components/Works/Works"
+// import Blog from "src/components/Blog/Blog"
+import About from "src/components/About/About"
+import Cta from "../components/Cta"
 
 const IndexPage = () => (
-  <div className="container main-body">
+  <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
-    <div className="come--later__container">
-      <h1>Hello There!</h1>
-      <p>
-        My site is currently under maintenance. Please check back by January!
-      </p>
-      <p>For the meantime, you can connect with me on</p>
-      <a
-        href="https://twitter.com/CodeUXI"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Twitter
-      </a>
-      <a
-        href="https://www.linkedin.com/in/roosevelt-innocent/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        LinkedIn
-      </a>
-      <a
-        href="https://dribbble.com/CodeUXI"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Dribbble
-      </a>
-      <a
-        href="https://github.com/CodeUXI"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Github
-      </a>
-      <p>Or email me at</p>
-      <a
-        href="mailto:howdy.roosevelt@gmail.com"
-        target="_top"
-        rel="noopener noreferrer"
-      >
-        howdy.roosevelt@gmail.com
-      </a>
+    <div>
+      <LandingHeader />
+
+      <Works />
+
+      {/* <Blog /> */}
+
+      <About />
+
+      <Cta />
+
+      <BigTitle />
     </div>
-
-    {/* <HomeHeader>
-      <AboutIntro />
-    </HomeHeader>
-    <Services>
-      <ServicesSection />
-    </Services>
-
-    <Works>
-      <WorkSection />
-    </Works>
-
-    <Contact>
-      <ContactContainer />
-    </Contact> */}
-  </div>
+  </Layout>
 )
 
 export default IndexPage
