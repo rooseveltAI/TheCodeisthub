@@ -8,7 +8,7 @@ export default class Works extends Component {
     return (
       <div className="container">
         <div className="works__container">
-          <h2>My Recent Works</h2>
+          <h2>My Works</h2>
 
           <div className="work--card__container">
             <div className="work__card">
@@ -19,7 +19,14 @@ export default class Works extends Component {
                   is a fin-tech mobile app for the Nigeria local market which
                   involves money lending with ease
                 </p>
-                <button className="btn">View this project</button>
+                <a
+                  title="Open in new tab"
+                  href="https://medium.com/@CodeUXI/coin-loan-app-ux-case-study-5526124c69ba"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="btn">View this project</button>
+                </a>
               </div>
             </div>
 
@@ -33,8 +40,8 @@ export default class Works extends Component {
               <div className="work--card__content">
                 <h3>Gosquare</h3>
                 <p>
-                  is a fin-tech mobile app for the Nigeria local market which
-                  involves money lending with ease
+                  GoSquare is an on-demand delivery platform that provides easy
+                  and convenient delivery services for small businesses.
                 </p>
                 <button className="btn">View this project</button>
               </div>
