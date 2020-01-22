@@ -30,7 +30,13 @@ export default class Navbar extends Component {
                     </li>
 
                     <li>
-                      <Link to="/works">Portfolio</Link>
+                      <a
+                        href="https://www.behance.net/roosevelt-innocent"
+                        target="_top"
+                        rel="noopener noreferrer"
+                      >
+                        Portfolio
+                      </a>
                     </li>
 
                     <li>

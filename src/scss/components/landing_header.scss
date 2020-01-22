@@ -25,7 +25,7 @@
   margin: auto;
   background: #ffffff;
   color: #000000;
-  width: 604px;
+  width: 716px;
   height: 257px;
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
   padding: 1em 3em 1em 3em;
@@ -36,6 +36,7 @@
 
   @include for-phone-only {
     width: 100%;
+    height: auto;
   }
 
   & p {

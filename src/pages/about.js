@@ -4,7 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import LandingHeader from "src/components/Header/LandingHeader"
+import AboutHeader from "src/components/Header/AboutHeader"
 import AboutPageText from "src/components/About/AboutPageText"
 import BigTitle from "../components/bigTitle"
 
@@ -12,7 +12,7 @@ const AboutPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="about--page__container">
-      <LandingHeader />
+      <AboutHeader />
       <AboutPageText />
     </div>
     <BigTitle />

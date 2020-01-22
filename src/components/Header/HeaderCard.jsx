@@ -8,6 +8,10 @@ export default function HeaderCard() {
         developer that’s passionate about user-centered design, and strongly
         believes that design should be purposeful and made for people, not
         trends.
+        <p>
+          Aside from that, he also helps businesses build intuitive user
+          interfaces that delight their customers.
+        </p>
       </p>
     </div>
   )

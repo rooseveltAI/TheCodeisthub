@@ -48,9 +48,13 @@ export default class Works extends Component {
             </div>
           </div>
 
-          <Link to="/works">
+          <a
+            href="https://www.behance.net/roosevelt-innocent"
+            target="_top"
+            rel="noopener noreferrer"
+          >
             <button className="btn btn--pink">View All My Works &rarr;</button>
-          </Link>
+          </a>
         </div>
       </div>
     )
