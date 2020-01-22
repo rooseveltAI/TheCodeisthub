@@ -31,7 +31,7 @@ export default class Navbar extends Component {
 
                     <li>
                       <a
-                        href="https://www.behance.net/roosevelt-innocent"
+                        href="https://dribbble.com/CodeUXI"
                         target="_top"
                         rel="noopener noreferrer"
                       >

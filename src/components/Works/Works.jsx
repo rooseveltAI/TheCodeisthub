@@ -25,7 +25,7 @@ export default class Works extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="btn">View this project</button>
+                  <button className="btn">View project case study</button>
                 </a>
               </div>
             </div>
@@ -49,7 +49,7 @@ export default class Works extends Component {
           </div>
 
           <a
-            href="https://www.behance.net/roosevelt-innocent"
+            href="https://dribbble.com/CodeUXI"
             target="_top"
             rel="noopener noreferrer"
           >
